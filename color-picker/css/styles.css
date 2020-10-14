@@ -1,0 +1,99 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #140731;
+} 
+
+.site-nav{
+  background: #1a3441;
+  padding: 1rem;
+  box-shadow: 0 0  5px 0  #1a3441;
+  color:#ffffff;
+}
+
+.menu-options{
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+.option h1{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.icon{
+  width:2rem;
+}
+/* 
+ FORM HEADER 
+*/
+aside{
+  margin: 3rem auto;
+  max-width: 480px;
+  border-radius: 14px;
+  box-shadow: 0 0 6px 0 rgb(228, 228, 231);
+  display:flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+ 
+h2{
+  font-size: 3rem;
+  text-align: center;
+}
+
+ /* 
+ Color Picker
+ 
+ */ 
+ .contents{
+  width: calc(100% - 4rem);
+  margin: 0 auto;
+   
+   box-shadow: 0 0 1px 0 rgba(0,0,0,0.5);
+   padding: 2px;
+ 
+   
+ }
+ .color-display{
+   height: 280px;
+   background: aliceblue;
+ }
+ .color-options{
+   height: 1fr;
+   display:flex;
+   padding: 1rem 3rem;
+   justify-content: space-around;
+ }
+ .color{
+   width: 3rem;
+   height: 3rem;
+   box-shadow: 0 0 1px 0 rgba(0,0,0,0.5);
+   padding: 2px;
+ }
+ .swatch{
+   height: inherit;
+   cursor: pointer;
+ }
+
+.orange{
+background-color:#ff6347;
+}
+
+.purple{
+  background-color:#9c27b0;
+  }
+
+  .pink{
+    background-color:#e91e63;
+    }
+
+    .blue{
+      background-color:#2196f3;
+      }
+      .yellow{
+        background-color:#ffca28;
+        }
