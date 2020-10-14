@@ -1,0 +1,325 @@
+/* 
+Typeography
+*/
+/* poppins-200 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/poppins/poppins-v12-latin-200.eot"); /* IE9 Compat Modes */
+  src: local("Poppins ExtraLight"), local("Poppins-ExtraLight"),
+    url("../fonts/poppins/poppins-v12-latin-200.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins/poppins-v12-latin-200.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/poppins/poppins-v12-latin-200.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins/poppins-v12-latin-200.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/poppins/poppins-v12-latin-200.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins/poppins-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url("../fonts/poppins/poppins-v12-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins/poppins-v12-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/poppins/poppins-v12-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins/poppins-v12-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/poppins/poppins-v12-latin-regular.svg#Poppins")
+      format("svg"); /* Legacy iOS */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins/poppins-v12-latin-600.eot"); /* IE9 Compat Modes */
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+    url("../fonts/poppins/poppins-v12-latin-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins/poppins-v12-latin-600.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/poppins/poppins-v12-latin-600.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins/poppins-v12-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/poppins/poppins-v12-latin-600.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins/poppins-v12-latin-700.eot"); /* IE9 Compat Modes */
+  src: local("Poppins Bold"), local("Poppins-Bold"),
+    url("../fonts/poppins/poppins-v12-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins/poppins-v12-latin-700.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/poppins/poppins-v12-latin-700.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/poppins/poppins-v12-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/poppins/poppins-v12-latin-700.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+
+/*       PAGE HEADINGS          */
+body {
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #1b2229;
+}
+/*       TYPOGRAPHY HEADINGS          */
+ 
+ 
+
+
+ 
+/* 
+ Page Header
+*/
+.page-header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0 5px 0 rgb(221, 221, 221);
+  position: relative;
+  z-index: 3;
+}
+ 
+.branding{
+  display:flex;
+  align-items: center; `
+}
+.branding img {
+  height: 2.8rem;
+  margin-right: 0.5rem;
+}
+.branding h1{
+  text-align:center;
+  padding-top: 0.5rem;
+  font-size:1.5rem;
+  line-height: 1rem;
+  font-weight: bold;
+  font-style: italic;
+ color: #575867;
+}
+.branding span{
+  display:block;
+  color:#90939a;
+  font-size:0.8rem;
+  padding-left:0.35rem;
+  padding-top:0.25rem;
+}
+
+/* 
+    ICONOGRAPHY
+ */
+.icon-sm{
+  width:1.25rem;
+}
+
+.icon-md{
+  width:2.25rem;
+}
+.icon-lg{
+  width: 3.25rem;
+}
+.link-icon {
+  width: 2rem;
+  margin: 0 1.5rem;
+  opacity: 0.5;
+}
+.icon-list {
+  display: flex;
+  justify-content: center;
+  background: rgb(252, 252, 252);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top: rgba(226, 226, 226, 0.25) 1px solid;
+}
+
+/*************  CARDS  ****************/
+.card {
+  padding: 2rem 0 0;
+  box-shadow: 0 0 3px 0 rgb(226, 226, 226);
+  border-radius: 3px;
+}
+
+ 
+.card h2 {
+  font-weight: 700;
+  color: rgb(92, 91, 91);
+}
+.card img {
+  width: 420px;
+  margin: 1rem 0;
+}
+.card p {
+  font-size: 12px;
+  color: rgb(67, 67, 67);
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+/*************  Sidebars  ****************/
+.sidebar {
+  width: 289px;
+  height: 100vmax;
+  background: rgba(247, 247, 247, 0.2);
+  padding: 2rem 1rem 2rem 2rem;
+  box-shadow: 5px   -0 5px -5px rgb(221, 221, 221);
+}
+/* 
+  Links
+  */
+.small-link{
+  color:tomato;
+  text-decoration:none;
+}
+/* 
+ 
+        UI Links
+  
+*/
+.link {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #666;
+  cursor: pointer;
+  user-select: none;
+}
+
+.link:hover{
+  text-decoration-line: underline;
+  text-decoration-color: #666;
+}
+
+/* 
+   UI Buttons
+*/
+button {
+  user-select: none;
+  background: rgb(241, 241, 241);
+  color: #666;
+  border: none;
+  border-radius: 3px;
+  padding: 0.25rem 1rem;
+  margin: 1rem auto;
+  display: block;
+}
+button:hover {
+  cursor: pointer;
+}
+ 
+/*  Exercise */
+.task{
+  width: 520px;
+  color: slategrey;
+  font-size: 0.8rem;
+  padding: 2rem 1rem;
+}
+.task header{
+  font-size: 1.5rem;
+  width:75%;
+  margin-bottom:1rem;
+}
+.task p{
+  margin-bottom: 1rem;
+}
+.task ul{
+  font-weight: 300;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.task-title{
+  margin-bottom:1rem;
+}
+ 
+.task-time{
+  font-size: 0.75rem;
+}
+.task-time img{
+ width:1rem;
+ margin-right: 0.05rem;
+ vertical-align:text-top;
+
+
+}
+.task-time {
+   margin-bottom: 2rem;
+}
+ 
+.task-image{
+  width:100%;
+}
+.task-image h2{
+  font-size: 2.75rem;
+  text-align:center;
+  color:#594fea;
+  font-weight: 700;
+  margin-bottom:1.8rem;
+}
+ 
+ .task-copy{
+   margin-bottom: 2rem;
+ }
+ .best-practice h3{
+  margin-left: 1.25rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+ }
+.best-practice li{
+  position:relative;
+ margin-left:1.5rem;
+ margin-bottom: 0.5rem;
+ color:  rgb(103, 115, 128);
+ font-weight: 200;;
+}
+ .best-practice li::before{
+   display:inline-block;
+   position: absolute;
+   top:0;
+   left:-1rem;
+   width:0.5rem;
+   height:0.5rem; 
+    content: url(../img/icons/dot.svg);
+ }
+  .best-practice li::after{
+  content:"";
+  position: absolute;
+  height: calc(2rem - 1px);
+  width: 1px;
+  left: -0.7rem;  
+  bottom: 0.5rem;
+  border-left: 1px solid #dadbdf;
+ }
+ .best-practice li:first-child::after{
+display:none;
+ }  
+ 
+
+ 
+
+
+ 
+
+  
