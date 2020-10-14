@@ -1,0 +1,127 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #140731;
+  background-color:#f8fbfd;
+  position: relative;
+}
+.site-nav {
+  width: 100%; 
+  padding: 0.25rem 1rem; 
+  color: #ffffff;
+  scroll-behavior:smooth;
+}
+.menu-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+ width:2.5rem;
+ fill:rgb(43, 41, 54);
+ 
+}
+
+.hamburger{
+ width: 2rem;
+  stroke:rgb(43, 41, 54);
+}
+  
+
+ 
+  main {
+    margin: 8rem 0.5rem;
+  }
+  .browser-download {
+    max-width: 420px;
+    margin: 0 auto;
+
+    color: #999999;
+  } 
+  .browser-download h2{
+    text-align: center;
+    font-size: 1.4rem;
+    background:rgb(38, 38, 47);
+    color:#ffffff;
+    padding: 0.5rem 0;
+  }
+
+  /* IMAGE VIEWER  */
+ 
+
+  .icon-container{
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 rgba(161, 161, 161, 0.25);
+     padding: 1rem;
+     text-align:center;
+     margin-bottom: 2rem;
+  }
+  .browser-icon{
+    opacity: 0.14;
+    height: 220px;
+  }
+ 
+
+  .browser-versions{
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+  }
+ 
+  label{
+    display:block;
+    padding-left: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-size: 12px;
+  }
+ 
+
+   
+
+  .browsers-types{
+    display: block;
+    font-size: 1.125rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #666;
+    margin: 0;
+    border: none;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.45);
+    border-radius: 0.5rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("../img/icons/controls/down-arrow.svg");
+    background-repeat:no-repeat;
+    background-position:    98% center;
+    background-size: 1rem;
+    color: #999999;
+  }
+ .download-link-container{
+   text-align: center;
+   margin: 1.5rem;
+ }
+  .download-link{
+    display:inline-block;
+    background:rgb(97, 123, 241);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color:white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+  }
+
+  .additional-info{
+    font-size: 11px;
+ 
+  
+  }
+  
