@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Employee Manager</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reboot.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <nav class="control-strip">
+      <ul class="items">
+        <li class="item brand">
+          <span>Employees Manager</span>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="dashboard">
+      <form id="newEmployee" action="#">
+        <fieldset class="employee-details">
+          <legend>Employee Details</legend>
+          <div class="control">
+            <label class="default-label" for="firstName">first name</label>
+            <input
+              id="firstName"
+              class="default-input"
+              type="text"
+              name="firstName"
+              value="Lorem"
+            />
+          </div>
+
+          <div class="control">
+            <label for="lastName" class="default-label">last name</label>
+            <input
+              id="lastName"
+              class="default-input"
+              type="text"
+              name="lastName"
+              value="Ipsum"
+            />
+          </div>
+
+          <div class="control email">
+            <label for="emailAddress" class="default-label">email</label>
+            <input
+              id="emailAddress"
+              class="default-input"
+              type="text"
+              name="emailAddress"
+              value="newemployee@company.com"
+            />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Profile Image</legend>
+          <div class="profile">
+            <div class="profile-image">
+              <img src="img/employees/placeholder.png" alt="employee" />
+              <label for="profileImage" class="form-button default-input"
+                >upload profile image</label
+              >
+              <input
+                id="profileImage"
+                class="hide"
+                type="file"
+                name="profileImage"
+              />
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Department</legend>
+          <div class="departments">
+            <div class="department">
+              <input
+                id="design"
+                value="design"
+                type="radio"
+                name="department"
+              /><label for="design">design</label>
+            </div>
+            <div class="department">
+              <input
+                id="apps"
+                value="applications"
+                type="radio"
+                name="department"
+              /><label for="apps">applications</label>
+            </div>
+            <div class="department">
+              <input
+                id="marketing"
+                value="marketing"
+                type="radio"
+                name="department"
+              /><label for="marketing">marketing</label>
+            </div>
+            <div class="department">
+              <input
+                id="hr"
+                value="human resources"
+                type="radio"
+                name="department"
+              /><label for="hr">human resources</label>
+            </div>
+            <div class="department">
+              <input
+                id="sales"
+                value="sales"
+                type="radio"
+                name="department"
+              /><label for="sales">sales</label>
+            </div>
+            <div class="department">
+              <input
+                id="support"
+                value="support staff"
+                type="radio"
+                name="department"
+              /><label for="support">support staff</label>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Compensation</legend>
+          <div class="control">
+            <label for="salary" class="default-label">base salary</label>
+            <input
+              id="salary"
+              class="default-input"
+              type="number"
+              name="salary"
+            />
+          </div>
+          <div class="control">
+            <label for="deductions" class="default-label">deductions</label>
+            <input
+              id="deductions"
+              class="default-input"
+              type="number"
+              name="deductions"
+            />
+          </div>
+        </fieldset>
+
+        <div>
+          <input
+            id="submitButton"
+            class="form-button"
+            type="submit"
+            name="submitButton"
+            value="add new employee"
+          />
+        </div>
+      </form>
+
+      <aside class="employee-display">
+        <header>
+          <h2>New Employee Directory</h2>
+          <div class="salaries-display">
+            <p><span>total salary</span> <span>$0.00</span></p>
+            <p><span>total deductions</span> <span>$0.00</span></p>
+            <p><span>net spend</span> <span>$0.00</span></p>
+          </div>
+        </header>
+        <div class="employees">
+            
+
+        </div>
+      </aside>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.1.0/uuidv4.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
