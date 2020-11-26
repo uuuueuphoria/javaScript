@@ -1,5 +1,7 @@
 # CPSC1520 Client Side JavaScript
 
+##Employyee manager application completed inclass
+
 ## Data Objects And The DOM API
 
 One of the most common task you will have to perform with cliend side JavaScript is to create markup from objects. The objects are structured so that each object has the same properties. If a property has no value it may be assigned null or undefined for values.  
