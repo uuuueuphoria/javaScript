@@ -1,6 +1,6 @@
 # CPSC1520 Client Side JavaScript
 
-##Employyee manager application completed inclass
+## Employyee manager application completed inclass
 
 ## Data Objects And The DOM API
 
