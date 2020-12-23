@@ -1,0 +1,11 @@
+[
+    {
+    "id": 4,
+    "firstName": "Sally",
+    "lastName": "Anne",
+    "avatar": "sally.jpg",
+    "email":"SallyAnne@gmail.com",
+    "hometown":"Victoria",
+    "bio":"Hi! My name is Sally. I came form Victoria, BC."
+    }
+]

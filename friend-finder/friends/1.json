@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "avatar": "jane_doe.jpg",
+        "email":"JaneDoe@gmail.com",
+        "hometown":"Calgary",
+        "bio":"Hi! My name is Jane. I came form Calgary, AB."
+    }
+]

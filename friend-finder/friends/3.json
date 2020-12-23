@@ -1,0 +1,11 @@
+[
+    {
+    "id": 3,
+    "firstName": "Clark",
+    "lastName": "Kent",
+    "avatar": "supes.jpg",
+    "email":"ClarkKent@gmail.com",
+    "hometown":"London",
+    "bio":"Hi! My name is Clark. I just moved from London."
+    }
+]
